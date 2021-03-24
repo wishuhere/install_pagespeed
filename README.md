@@ -74,3 +74,7 @@ Vì không thể cài đặt module pagespeed cho nginx bằng các package mana
 
 # Tổng kết lại
  Sau bài này hi vọng mọi người sẽ có thể biết cách cài đặt tổng quát nhất module pagespeed cho cả 2 loại web server là nginx và apache.
+ 
+## Tài liệu tham khảo
+https://www.modpagespeed.com/doc
+https://unix.stackexchange.com/questions/243060/unable-to-install-mod-pagespeed-on-apache-2-4
