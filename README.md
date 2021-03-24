@@ -42,7 +42,7 @@ Vì không thể cài đặt module pagespeed cho nginx bằng các package mana
 
 ![Thông báo sau khi cài đặt xong](3osVOni.png)
 
- Để có thể sử dụng ngx_pagespeed thì cần phải thêm một option nhỏ vào nginx.conf dưới từng block **server** cần xử dụng module pagespeed. Theo như ví dụ dựa theo hình ở trên thì phải thêm vào file có đường dẫn là **/usr/local/nginx/conf/nginx.conf** những option là: 
+ Để có thể sử dụng module pagespeed thì cần phải thêm những option nhỏ vào nginx.conf dưới từng block **server** cần xử dụng module pagespeed. Theo như ví dụ dựa theo hình ở trên thì phải thêm vào file có đường dẫn là **/usr/local/nginx/conf/nginx.conf** những option là: 
    >pagespeed on;
    >
    > #Needs to exist and be writable by nginx.  Use tmpfs for best performance.
@@ -64,6 +64,7 @@ Vì không thể cài đặt module pagespeed cho nginx bằng các package mana
    > location ~ "^/ngx_pagespeed_beacon$" { }
    > 
 ![Config mẫu](gmnKf3W.png)
+ 
  Để có thể chạy nginx được build bởi tool của module pagespeed thì ta chỉ cần chạy câu lênh:
  > /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
  > 
