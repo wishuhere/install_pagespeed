@@ -77,4 +77,5 @@ Vì không thể cài đặt module pagespeed cho nginx bằng các package mana
  
 ## Tài liệu tham khảo
 https://www.modpagespeed.com/doc
+
 https://unix.stackexchange.com/questions/243060/unable-to-install-mod-pagespeed-on-apache-2-4
